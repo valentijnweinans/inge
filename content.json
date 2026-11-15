@@ -1,0 +1,104 @@
+{
+  "_uitleg": [
+    "Hier staat ALLE tekst van de website. Pas alleen de tekst tussen de aanhalingstekens aan.",
+    "Regels: elke regel eindigt met een komma, BEHALVE de laatste regel binnen een { } of [ ] blok.",
+    "Gebruik binnen een tekst geen gewone aanhalingstekens (\"), maar ‘ ’ of '.",
+    "Een review toevoegen? Kopieer een blok { ... } en zet een komma tussen de blokken.",
+    "Een foto vervangen? Zet de nieuwe foto in de map img/ en pas de bestandsnaam bij 'foto' aan. 'fotoMobiel' is de staande versie van de grote foto voor telefoons.",
+    "Twijfel of het klopt? Plak de tekst op https://jsonlint.com om fouten te vinden."
+  ],
+  "site": {
+    "naam": "Inge",
+    "ondertitel": "Pianoles Gorssel",
+    "titel": "Pianoles in Gorssel | Inge — piano leren spelen",
+    "beschrijving": "Pianoles in Gorssel voor kinderen en volwassenen. Persoonlijke lessen op de vleugel bij Inge, voor beginners en gevorderden. Plan een gratis proefles."
+  },
+  "nav": {
+    "overMij": "Over mij",
+    "reviews": "Ervaringen",
+    "contact": "Contact"
+  },
+  "hero": {
+    "foto": "img/hero.jpg",
+    "fotoMobiel": "img/hero-mobiel.jpg",
+    "fotoAlt": "Inge speelt piano op haar vleugel in haar lesruimte in Gorssel",
+    "kop": "Pianoles in Gorssel",
+    "slogan": "Leer spelen met je hart, niet alleen met je handen.",
+    "knop": "Plan een proefles"
+  },
+  "overMij": {
+    "foto": "img/over-mij.jpg",
+    "fotoAlt": "Inge lacht vanachter haar vleugel in Gorssel",
+    "titel": "Over mij",
+    "kop": "Muziek is een taal die iedereen kan leren spreken.",
+    "alineas": [
+      "Ik ben Inge, pianiste en pianodocent. Al ruim vijftien jaar geef ik les aan kinderen en volwassenen, van de allereerste noot tot het voorbereiden op een conservatoriumauditie.",
+      "In mijn lessen staat plezier voorop. We werken aan techniek en notenlezen, maar altijd met muziek die jij mooi vindt — klassiek, pop, jazz of filmmuziek.",
+      "Je bent welkom in mijn lesruimte in Gorssel, met een vleugel, rustig en licht, waar je de tijd krijgt om in je eigen tempo te groeien. Mijn leerlingen komen uit Gorssel en omgeving: Epse, Eefde, Joppe, Deventer en Zutphen."
+    ],
+    "feiten": [
+      {
+        "waarde": "15+",
+        "label": "jaar leservaring"
+      },
+      {
+        "waarde": "6–86",
+        "label": "jaar, de leeftijd van mijn leerlingen"
+      },
+      {
+        "waarde": "30 / 45",
+        "label": "minuten per les"
+      }
+    ]
+  },
+  "reviews": {
+    "titel": "Ervaringen",
+    "kop": "Wat leerlingen zeggen",
+    "items": [
+      {
+        "tekst": "Na dertig jaar durfde ik eindelijk weer achter de piano. Inge is geduldig, warm en weet precies wanneer ze je een zetje moet geven.",
+        "naam": "Marieke",
+        "detail": "leerling sinds 2022"
+      },
+      {
+        "tekst": "Mijn dochter kijkt de hele week uit naar haar les. Ze speelt nu liedjes die ze zelf uitkiest, en het notenlezen gaat vanzelf.",
+        "naam": "Joris",
+        "detail": "vader van Fenna (9)"
+      },
+      {
+        "tekst": "Dankzij Inge ben ik aangenomen op het conservatorium. Ze hielp me niet alleen met techniek, maar ook met mijn zenuwen.",
+        "naam": "Daan",
+        "detail": "oud-leerling"
+      }
+    ]
+  },
+  "oproep": {
+    "kop": "Zin om te beginnen?",
+    "tekst": "De eerste proefles is gratis en vrijblijvend. De lessen zijn in Gorssel, tussen Deventer en Zutphen.",
+    "knop": "Neem contact op"
+  },
+  "contact": {
+    "foto": "img/contact.jpg",
+    "fotoAlt": "Inge achter de vleugel in Gorssel",
+    "titelPagina": "Contact | Pianoles in Gorssel — Inge",
+    "beschrijving": "Neem contact op met Inge voor pianoles in Gorssel. Plan een gratis proefles of stel je vraag via het contactformulier.",
+    "titel": "Contact",
+    "kop": "Laten we kennismaken.",
+    "intro": "Wil je een proefles plannen of heb je een vraag? Stuur me een bericht, dan neem ik binnen twee werkdagen contact met je op.",
+    "lesadres": "Lesadres: Gorssel. Het precieze adres ontvang je bij het maken van een afspraak.",
+    "veldNaam": "Naam",
+    "veldEmail": "E-mailadres",
+    "veldTelefoon": "Telefoon (optioneel)",
+    "veldBericht": "Bericht",
+    "placeholderBericht": "Vertel kort iets over jezelf: leeftijd, ervaring, wat je graag wilt spelen…",
+    "versturen": "Versturen",
+    "bezig": "Bezig met versturen…",
+    "successTitel": "Bedankt voor je bericht!",
+    "successTekst": "Je ontvangt een bevestiging per e-mail. Ik neem zo snel mogelijk contact met je op.",
+    "errorTekst": "Er ging iets mis bij het versturen. Probeer het later opnieuw.",
+    "terug": "Terug naar de homepage"
+  },
+  "footer": {
+    "tekst": "Pianoles in Gorssel voor kinderen en volwassenen"
+  }
+}

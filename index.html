@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pianoles in Gorssel | Inge — piano leren spelen</title>
+        <!-- SEO: deze head-tags staan bewust vast in de HTML (Google en WhatsApp/Facebook-previews
+             lezen ze zonder JavaScript). main.js werkt titel en description bij vanuit content.json. -->
+        <meta name="description" content="Pianoles in Gorssel voor kinderen en volwassenen. Persoonlijke lessen op de vleugel bij Inge, voor beginners en gevorderden. Plan een gratis proefles." />
+        <link rel="canonical" href="https://valentijnweinans.github.io/inge/" />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NL-GE" />
+        <meta name="geo.placename" content="Gorssel" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:site_name" content="Inge — Pianoles Gorssel" />
+        <meta property="og:title" content="Pianoles in Gorssel | Inge — piano leren spelen" />
+        <meta property="og:description" content="Pianoles in Gorssel voor kinderen en volwassenen. Persoonlijke lessen op de vleugel bij Inge, voor beginners en gevorderden. Plan een gratis proefles." />
+        <meta property="og:url" content="https://valentijnweinans.github.io/inge/" />
+        <meta property="og:image" content="https://valentijnweinans.github.io/inge/img/hero.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+        <link rel="preload" as="image" href="img/hero.jpg" media="(min-width: 768px)" />
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": ["MusicSchool", "LocalBusiness"],
+            "@id": "https://valentijnweinans.github.io/inge/#pianoles",
+            "name": "Inge — Pianoles Gorssel",
+            "description": "Pianoles in Gorssel voor kinderen en volwassenen, van beginner tot gevorderd. Les op de vleugel.",
+            "url": "https://valentijnweinans.github.io/inge/",
+            "image": "https://valentijnweinans.github.io/inge/img/hero.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gorssel",
+                "addressRegion": "Gelderland",
+                "addressCountry": "NL"
+            },
+            "geo": { "@type": "GeoCoordinates", "latitude": 52.2006, "longitude": 6.2014 },
+            "areaServed": ["Gorssel", "Epse", "Eefde", "Joppe", "Deventer", "Zutphen", "Lochem"],
+            "knowsAbout": ["Pianoles", "Piano spelen", "Klassieke muziek", "Notenlezen"],
+            "priceRange": "€€"
+        }
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- ====== HEADER ====== -->
+        <header class="site-header site-header--overlay">
+            <div class="container header-inner">
+                <a href="index.html" class="logo">
+                    <span data-content="site-naam"></span>
+                    <small data-content="site-ondertitel"></small>
+                </a>
+                <nav class="nav">
+                    <a href="#over-mij" data-content="nav-over-mij"></a>
+                    <a href="#reviews" data-content="nav-reviews"></a>
+                    <a href="contact.html" class="nav-cta" data-content="nav-contact"></a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- ====== HERO ====== -->
+            <section class="hero">
+                <!-- Foto en alt-tekst staan in content.json -->
+                <picture>
+                    <source media="(max-width: 767px)" srcset="img/hero-mobiel.jpg" data-content="hero-foto-mobiel" />
+                    <img class="hero-img photo" src="img/hero.jpg" data-content="hero-foto" alt="Inge speelt piano op haar vleugel in haar lesruimte in Gorssel" width="2400" height="1571" fetchpriority="high" />
+                </picture>
+                <div class="hero-overlay"></div>
+                <div class="container hero-content">
+                    <h1 class="hero-kop" data-content="hero-kop"></h1>
+                    <p class="hero-slogan" data-content="hero-slogan"></p>
+                    <a href="contact.html" class="btn btn--green" data-content="hero-cta"></a>
+                </div>
+            </section>
+
+            <!-- ====== OVER MIJ ====== -->
+            <section class="about" id="over-mij">
+                <div class="about-img">
+                    <img class="photo" src="img/over-mij.jpg" data-content="over-mij-foto" alt="Inge lacht vanachter haar vleugel in Gorssel" width="1600" height="1800" loading="lazy" />
+                </div>
+                <div class="about-text">
+                    <p class="eyebrow" data-content="over-mij-titel"></p>
+                    <h2 data-content="over-mij-kop"></h2>
+                    <div data-content="over-mij-alineas"></div>
+                    <ul class="facts" data-content="over-mij-feiten"></ul>
+                </div>
+            </section>
+
+            <!-- ====== ERVARINGEN ====== -->
+            <section class="reviews" id="reviews">
+                <div class="container">
+                    <p class="eyebrow eyebrow--light" data-content="reviews-titel"></p>
+                    <h2 data-content="reviews-kop"></h2>
+                    <div class="review-grid" data-content="reviews-items"></div>
+                </div>
+            </section>
+
+            <!-- ====== OPROEP ====== -->
+            <section class="cta-band">
+                <div class="container cta-inner">
+                    <div>
+                        <h2 data-content="oproep-kop"></h2>
+                        <p data-content="oproep-tekst"></p>
+                    </div>
+                    <a href="contact.html" class="btn btn--dark" data-content="oproep-knop"></a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <span>&copy; <span id="currentYear"></span> <span data-content="site-naam"></span></span>
+                <span data-content="footer-tekst"></span>
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>

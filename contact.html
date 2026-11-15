@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact | Pianoles in Gorssel — Inge</title>
+        <!-- SEO: deze head-tags staan bewust vast in de HTML (Google en WhatsApp/Facebook-previews
+             lezen ze zonder JavaScript). main.js werkt titel en description bij vanuit content.json. -->
+        <meta name="description" content="Neem contact op met Inge voor pianoles in Gorssel. Plan een gratis proefles of stel je vraag via het contactformulier." />
+        <link rel="canonical" href="https://valentijnweinans.github.io/inge/contact.html" />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NL-GE" />
+        <meta name="geo.placename" content="Gorssel" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:site_name" content="Inge — Pianoles Gorssel" />
+        <meta property="og:title" content="Contact | Pianoles in Gorssel — Inge" />
+        <meta property="og:description" content="Neem contact op met Inge voor pianoles in Gorssel. Plan een gratis proefles of stel je vraag via het contactformulier." />
+        <meta property="og:url" content="https://valentijnweinans.github.io/inge/contact.html" />
+        <meta property="og:image" content="https://valentijnweinans.github.io/inge/img/hero.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="page-contact">
+        <header class="site-header">
+            <div class="container header-inner">
+                <a href="index.html" class="logo">
+                    <span data-content="site-naam"></span>
+                    <small data-content="site-ondertitel"></small>
+                </a>
+                <nav class="nav">
+                    <a href="index.html#over-mij" data-content="nav-over-mij"></a>
+                    <a href="index.html#reviews" data-content="nav-reviews"></a>
+                    <a href="contact.html" class="nav-cta" aria-current="page" data-content="nav-contact"></a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="contact">
+            <div class="contact-img">
+                <img class="photo" src="img/contact.jpg" data-content="contact-foto" alt="Inge achter de vleugel" width="1400" height="1562" />
+            </div>
+
+            <div class="contact-body">
+                <p class="eyebrow" data-content="contact-titel"></p>
+                <h1 data-content="contact-kop"></h1>
+                <p class="contact-intro" data-content="contact-intro"></p>
+                <p class="contact-adres" data-content="contact-lesadres"></p>
+
+                <div id="contactWrapper">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="field">
+                            <label for="naam" data-content="contact-veld-naam"></label>
+                            <input type="text" id="naam" name="naam" autocomplete="name" required />
+                        </div>
+                        <div class="field">
+                            <label for="email" data-content="contact-veld-email"></label>
+                            <input type="email" id="email" name="email" autocomplete="email" required />
+                        </div>
+                        <div class="field">
+                            <label for="telefoon" data-content="contact-veld-telefoon"></label>
+                            <input type="tel" id="telefoon" name="telefoon" autocomplete="tel" />
+                        </div>
+                        <div class="field">
+                            <label for="bericht" data-content="contact-veld-bericht"></label>
+                            <textarea id="bericht" name="bericht" rows="6" required></textarea>
+                        </div>
+
+                        <!-- Spambeveiliging: honeypot (onzichtbaar) + tijdscheck -->
+                        <div class="hp" aria-hidden="true">
+                            <label for="website">Website</label>
+                            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+                        </div>
+                        <input type="hidden" id="formLoadedAt" name="form_loaded_at" />
+
+                        <p class="form-error" id="formError" role="alert" hidden data-content="contact-error"></p>
+                        <button type="submit" class="btn btn--dark" data-content="contact-versturen"></button>
+                    </form>
+
+                    <div class="form-success" id="formSuccess" hidden>
+                        <h2 data-content="contact-success-titel"></h2>
+                        <p data-content="contact-success-tekst"></p>
+                        <a href="index.html" class="link" data-content="contact-terug"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <span>&copy; <span id="currentYear"></span> <span data-content="site-naam"></span></span>
+                <span data-content="footer-tekst"></span>
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>

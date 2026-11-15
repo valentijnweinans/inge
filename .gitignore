@@ -1,0 +1,5 @@
+# Originele telefoonfoto's — niet publiceren, de site gebruikt de web-versies
+img/IMG*.jpg
+
+_preview.html
+.DS_Store
